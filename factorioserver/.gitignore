@@ -1,0 +1,6 @@
+.lock
+factorio-*.log
+saves/**
+scenarios/**
+temp/**
+script-output/**
