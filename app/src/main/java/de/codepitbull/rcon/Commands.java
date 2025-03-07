@@ -22,8 +22,8 @@ public class Commands {
         return new RawCommand(PacketTypeClient.SERVERDATA_EXECCOMMAND, "/cheat "+cmd);
     }
 
-    public static RawCommand find() {
-        return new RawCommand(PacketTypeClient.SERVERDATA_EXECCOMMAND, "/find");
+    public static RawCommand find(String entityType) {
+        return new RawCommand(PacketTypeClient.SERVERDATA_EXECCOMMAND, "/find " + entityType);
     }
 
     public record RawCommand(PacketTypeClient type, String content) {};

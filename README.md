@@ -39,15 +39,10 @@ end
 
 ## Setup
 
-There is a softlink in factoriserver going from **factorioserver/mods/mod_rconreceiver** to **mod_rconreceiver**.
-This keeps the mod up-to-date but you must restart the container to get changes loaded.
-
-Changes to **mod_rconreceiver** must also go into your facvtorio installation.
-On my machine that is the folder **/Users/jochenmader/Library/Application\ Support/factorio/mods/**
-It's easiest to create a softlink to **mod_rconreceiver** there too.
+The mod in **factorioserver/mods/rconreceiver** must be linked into your game installations mod folder so these remain synced:
 
 ```bash
-ln -s ./mod_rconreceiver /Users/jochenmader/Library/Application\ Support/factorio/mods/ 
+ ln -s /Users/jochenmader/Development/0_playground/rconjava/factorioserver/mods/rconreceiver/ /Users/jochenmader/Library/Application\ Support/factorio/mods/rconreceiver
 ```
 
 Beyond that you must edited the **mod-list.json** available in both directories to look something like this:
@@ -87,3 +82,9 @@ Beyond that you must edited the **mod-list.json** available in both directories 
 
 This file must be identical for the server and your game installation so that both have the same active mods.
 
+
+### Accelerated Research
+```bash
+game.player.cheat_mode=true
+game.player.force.research_all_technologies()
+```

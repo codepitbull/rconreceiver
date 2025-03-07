@@ -5,5 +5,5 @@
   "author": "Jochen Mader",
   "factorio_version": "2.0",
   "dependencies": ["base >= 1.1"],
-  "description": "This mod enables interactions via rcon by augmenting the console wit hadditional commands."
+  "description": "This mod enables interactions via rcon by augmenting the console with additional commands."
 }
