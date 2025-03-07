@@ -1032,7 +1032,7 @@
         "name": "Name of the game as it will appear in the game lis",
         "description": "Description of the game that will appear in the listing",
         "max_players": 0,
-        "game_time_elapsed": 109,
+        "game_time_elapsed": 119,
         "has_password": false,
         "tags": 
         [
@@ -1047,7 +1047,7 @@
       "allow-commands": "true",
       "enable-whitelist": true
     },
-    "save-name": "_autosave1"
+    "save-name": "_autosave2"
   },
   "service-username": "",
   "service-token": "",

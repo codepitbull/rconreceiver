@@ -58,7 +58,7 @@ commands.add_command("comb", "Prints constant combinator to the console.", funct
     if constant_combinator == nil then
        game.print ("Error: no constant-combinator at that location")
        do return end
-   end
+    end
 
     local control_behavior = constant_combinator.get_or_create_control_behavior()
     local sections = control_behavior.sections
@@ -72,6 +72,7 @@ commands.add_command("comb", "Prints constant combinator to the console.", funct
             -- Full example of value: name:"signal-A", type: "virtual", quality:"normal", comparator: "="
         }
         game.print(json.encode (state, { indent = false }))
+        rcon.print(json.encode (state, { indent = false }))
     end
 end)
 
