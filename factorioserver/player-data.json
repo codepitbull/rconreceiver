@@ -1032,7 +1032,7 @@
         "name": "Name of the game as it will appear in the game lis",
         "description": "Description of the game that will appear in the listing",
         "max_players": 0,
-        "game_time_elapsed": 119,
+        "game_time_elapsed": 120,
         "has_password": false,
         "tags": 
         [
@@ -1045,9 +1045,10 @@
       "autosave-slots": 5,
       "afk-autokick-interval": 0,
       "allow-commands": "true",
-      "enable-whitelist": true
+      "enable-whitelist": true,
+      "enable-authserver-side-bans": true
     },
-    "save-name": "_autosave2"
+    "save-name": "mp-save-1"
   },
   "service-username": "",
   "service-token": "",

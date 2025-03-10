@@ -42,7 +42,7 @@ end
 The mod in **factorioserver/mods/rconreceiver** must be linked into your game installations mod folder so these remain synced:
 
 ```bash
- ln -s /Users/jochenmader/Development/0_playground/rconjava/factorioserver/mods/rconreceiver/ /Users/jochenmader/Library/Application\ Support/factorio/mods/rconreceiver
+ ln -s /Users/jmader/Development/0_playground/rconjava/factorioserver/mods/rconreceiver/ /Users/jmader/Library/Application\ Support/factorio/mods/rconreceiver
 ```
 
 Beyond that you must edited the **mod-list.json** available in both directories to look something like this:

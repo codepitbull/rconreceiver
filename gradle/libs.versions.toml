@@ -5,8 +5,10 @@
 junit-jupiter = "5.10.1"
 slf4j = "2.0.16"
 logback = "1.5.12"
+jackson = "2.18.2"
 
 [libraries]
+jackson-databind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
 logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }

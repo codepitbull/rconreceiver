@@ -11,4 +11,5 @@ plugins {
 }
 
 rootProject.name = "rconjava"
-include("app")
+include("rcon")
+include("rcon-adapter")
