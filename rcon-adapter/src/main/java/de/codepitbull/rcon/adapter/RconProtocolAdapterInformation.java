@@ -51,7 +51,7 @@ public class RconProtocolAdapterInformation implements ProtocolAdapterInformatio
 
     @Override
     public @NotNull String getLogoUrl() {
-        return "";
+        return "/images/factorio-wheel.png";
     }
 
     @Override
